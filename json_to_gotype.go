@@ -13,7 +13,7 @@ type Person1 struct{
 }
 func main(){
 
-j :=[]byte(`{"name":"Ramony","age":43.4,"location":"Texas"}`)
+j :=[]byte(`{"name":"Ramony","age":44,"location":"Texas"}`)
 
 var p Person1
 
