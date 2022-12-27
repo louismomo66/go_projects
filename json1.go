@@ -18,7 +18,7 @@ func main() {
 	// 	"kim", 20, "Uganda",
 	// }
 	person2 := Person{
-		Name:"kim",Age: 27.3,
+		Name:"kim",Age: 40,
 	}
 
 	personArray, err := json.Marshal(person2)
