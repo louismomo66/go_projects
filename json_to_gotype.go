@@ -27,3 +27,4 @@ if err != nil{
 fmt.Printf("Name:%s\nAge:%d\nLocation:%s\n",p.Name,p.Age,p.Location)
 
 }
+ 
