@@ -10,6 +10,7 @@ type Person struct {
 	Name     string `json:"firstName"`
 	Age      float64
 	Location string `json:"location,omitempty"`
+	Height float64
 }
 
 func main() {
@@ -18,7 +19,7 @@ func main() {
 	// 	"kim", 20, "Uganda",
 	// }
 	person2 := Person{
-		Name:"kim",Age: 40,
+		Name:"kim",Age: 47,Location:"Masaka",Height:788,
 	}
 
 	personArray, err := json.Marshal(person2)
