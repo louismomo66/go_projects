@@ -26,8 +26,8 @@ func main(){
 
 func poster(w http.ResponseWriter, r *http.Request ){
 f := r.FormValue("first")
-l := r.FormValue("second")
-s := r.FormValue("subscribes") == "on"
+l := r.FormValue("last")
+s := r.FormValue("subscribe") == "on"
 
 err := tpl.ExecuteTemplate(w, "index.gohtml", person{f, l, s})
 
